@@ -1,0 +1,5 @@
+<launch>
+    <node name="gnss_serial" pkg="gnss_serial" type="gnss_serial" output="screen">
+        <rosparam command="load" file="$(find gnss_serial)/config/gnss_serial.yaml" /> 
+    </node>
+</launch>

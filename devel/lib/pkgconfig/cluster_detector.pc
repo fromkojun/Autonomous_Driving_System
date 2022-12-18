@@ -1,0 +1,8 @@
+prefix=/home/kojun/Autonomous_Driving_System/devel
+
+Name: cluster_detector
+Description: Description of cluster_detector
+Version: 0.0.1
+Cflags: -I/home/kojun/Autonomous_Driving_System/src/perception/cluster_detector/include
+Libs: -L${prefix}/lib 
+Requires: roscpp tf

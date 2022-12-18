@@ -1,0 +1,12 @@
+<launch>
+    <!-- start drivers node-->
+    <!-- <include file = "$(find can_bridge)/launch/can_bridge.launch"></include> -->
+    <!-- <include file = "$(find canparse)/launch/canparse.launch"></include> -->
+    <!-- <include file = "$(find cansend)/launch/cansend.launch"></include> -->
+    <include file = "$(find gnss_serial)/launch/gnss_serial.launch"></include>
+    <include file = "$(find gnss_utm)/launch/gnss_utm.launch"></include>
+    <!-- <include file = "$(find obu_send)/launch/obu_send.launch"></include> -->
+
+    <!-- localization -->
+    <!-- <include file = "$(find localization_adapter)/launch/localization_adapter.launch"></include> -->
+</launch>

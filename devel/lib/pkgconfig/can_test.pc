@@ -1,0 +1,8 @@
+prefix=/home/kojun/Autonomous_Driving_System/devel
+
+Name: can_test
+Description: Description of can_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

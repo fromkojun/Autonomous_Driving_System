@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find rslidar_sdk)/launch/start.launch"></include>
+    <include file="$(find points_preprocessor)/launch/points_concat_filter.launch"></include>
+    <include file="$(find points_preprocessor)/launch/cloud_transformer.launch"></include>
+    <include file="$(find cluster_detector)/launch/cluster_detector.launch"></include>
+
+
+
+</launch>

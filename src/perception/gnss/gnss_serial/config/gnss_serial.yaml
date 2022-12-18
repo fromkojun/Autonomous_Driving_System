@@ -1,0 +1,10 @@
+
+#  only use GPCHC no GPGGA GPRMC
+
+port : /dev/ttyS0 # default /dev/ttyUSB0
+ 
+baud : 115200  # default 115200
+
+
+
+

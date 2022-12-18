@@ -1,0 +1,2 @@
+autoware_build_flags:canbus/can_bridge:canbus/can_msgs:canbus/can_test:canbus/canparse:canbus/cansend:messages/autoware_msgs:messages/common_msgs:perception/cluster_detector:perception/gnss/gnss_serial:perception/gnss/gnss_utm:perception/lidar/rslidar_sdk:perception/points_preprocessor
+-DCATKIN_DEVEL_PREFIX=/home/kojun/Autonomous_Driving_System/devel -DCMAKE_INSTALL_PREFIX=/home/kojun/Autonomous_Driving_System/install -G Unix Makefiles

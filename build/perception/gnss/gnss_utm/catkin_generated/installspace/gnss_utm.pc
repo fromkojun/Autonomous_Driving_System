@@ -1,0 +1,8 @@
+prefix=/home/kojun/Autonomous_Driving_System/install
+
+Name: gnss_utm
+Description: Description of gnss_utm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

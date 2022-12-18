@@ -1,0 +1,8 @@
+prefix=/home/kojun/Autonomous_Driving_System/install
+
+Name: gnss_serial
+Description: Description of gnss_serial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,17 @@
+<launch>
+    
+    <!-- /map in ENU , origin is PEKING univ. east door -->
+    <node pkg="tf" type="static_transform_publisher" name="world_to_map" args="441000 4427000 0 0 0 0 /world /map 100" />
+        
+    
+    <!-- /world in ENU , /base_link in FLU -->
+    <node name="gnss_utm" pkg="gnss_utm" type="gnss_utm" output="screen">
+    </node>
+
+    
+    <!-- /imu in ENU , transfer to /base_link in FLU -->
+
+    <!-- /gnss_pose in /world => /current_pose in /map -->
+
+    <!-- /map to /base_link -->
+</launch>

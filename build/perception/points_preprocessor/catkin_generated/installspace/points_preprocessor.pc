@@ -1,0 +1,8 @@
+prefix=/home/kojun/Autonomous_Driving_System/install
+
+Name: points_preprocessor
+Description: Description of points_preprocessor
+Version: 1.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs pcl_ros pcl_conversions tf
